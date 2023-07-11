@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22138.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8xL-is-9KF">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22113"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Controller-->
+        <scene sceneID="0Ay-sr-euq">
+            <objects>
+                <tableViewController id="lps-bH-fYO" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Nkp-xc-Buw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <sections>
+                            <tableViewSection headerTitle="" id="QjR-Ku-qKO">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="173" id="fZb-dO-Pp8">
+                                        <rect key="frame" x="0.0" y="50" width="375" height="173"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fZb-dO-Pp8" id="TCt-Gb-dxP">
+                                            <rect key="frame" x="0.0" y="0.0" width="348.5" height="173"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screenshot 2023-07-09 at 4.12.35 PM" translatesAutoresizingMaskIntoConstraints="NO" id="4Yd-wu-BgW">
+                                                    <rect key="frame" x="26" y="26" width="147" height="121"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="yBG-8O-PNC" kind="show" id="9bU-uG-ufh"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="173" id="fka-Gc-K2O">
+                                        <rect key="frame" x="0.0" y="223" width="375" height="173"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fka-Gc-K2O" id="yOS-B8-sUr">
+                                            <rect key="frame" x="0.0" y="0.0" width="348.5" height="173"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screenshot 2023-07-09 at 4.22.48 PM" translatesAutoresizingMaskIntoConstraints="NO" id="vBH-Tu-wf3">
+                                                    <rect key="frame" x="26" y="26" width="147" height="121"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="3M2-sM-Fnl" kind="show" id="yeq-ge-EGT"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="173" id="fNG-ht-2dk">
+                                        <rect key="frame" x="0.0" y="396" width="375" height="173"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fNG-ht-2dk" id="frg-QF-Kww">
+                                            <rect key="frame" x="0.0" y="0.0" width="348.5" height="173"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screenshot 2023-07-09 at 4.22.07 PM" translatesAutoresizingMaskIntoConstraints="NO" id="xhM-Yf-fCA">
+                                                    <rect key="frame" x="26" y="26" width="147" height="121"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="173" id="22R-MZ-PGs">
+                                        <rect key="frame" x="0.0" y="569" width="375" height="173"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="22R-MZ-PGs" id="KRN-cF-TaL">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="173"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screenshot 2023-07-09 at 4.12.35 PM" translatesAutoresizingMaskIntoConstraints="NO" id="B0T-em-gdF">
+                                                    <rect key="frame" x="26" y="26" width="147" height="121"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="lps-bH-fYO" id="KYa-9K-RTT"/>
+                            <outlet property="delegate" destination="lps-bH-fYO" id="88I-LI-Ale"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="54j-5t-Jvs"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lQy-2n-3zh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1897" y="-819"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rwJ-XS-ehL">
+            <objects>
+                <viewController id="yBG-8O-PNC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yM3-sy-Z1t">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screenshot 2023-07-09 at 4.12.35 PM" translatesAutoresizingMaskIntoConstraints="NO" id="r6w-Mt-vBR">
+                                <rect key="frame" x="114" y="37" width="147" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qbp-Xq-4ZM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Q75-9x-8aj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cnD-zf-fQp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2642" y="-819"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Csp-pY-iw7">
+            <objects>
+                <viewController id="3M2-sM-Fnl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="V0B-NQ-etJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screenshot 2023-07-09 at 4.22.48 PM" translatesAutoresizingMaskIntoConstraints="NO" id="40K-o4-zCL">
+                                <rect key="frame" x="114" y="37" width="147" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bga-NM-Qb1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Fa1-ws-9Mt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cmy-bB-35X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3580" y="-819.04047976011998"/>
+        </scene>
+        <!--Sticker-->
+        <scene sceneID="xUx-tr-Tts">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8xL-is-9KF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Sticker" image="smiley" catalog="system" selectedImage="smiley.fill" id="usA-Bb-y8j"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="YUj-AN-J96">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lps-bH-fYO" kind="relationship" relationship="rootViewController" id="rK9-yM-YAv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YNC-3J-MuS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1104.8" y="-819.04047976011998"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Screenshot 2023-07-09 at 4.12.35 PM" width="310" height="264"/>
+        <image name="Screenshot 2023-07-09 at 4.22.07 PM" width="320" height="264"/>
+        <image name="Screenshot 2023-07-09 at 4.22.48 PM" width="306" height="248"/>
+        <image name="smiley" catalog="system" width="128" height="123"/>
+        <image name="smiley.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

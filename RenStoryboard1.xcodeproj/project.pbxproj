@@ -13,6 +13,7 @@
 		A54235BD2A5A53B5006DD925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54235BB2A5A53B5006DD925 /* Main.storyboard */; };
 		A54235BF2A5A53B8006DD925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54235BE2A5A53B8006DD925 /* Assets.xcassets */; };
 		A54235C22A5A53B8006DD925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54235C02A5A53B8006DD925 /* LaunchScreen.storyboard */; };
+		A54235CB2A5B027C006DD925 /* Sticker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54235C92A5B027C006DD925 /* Sticker.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A54235BE2A5A53B8006DD925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A54235C12A5A53B8006DD925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A54235C32A5A53B8006DD925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54235CA2A5B027C006DD925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RenStoryboard1/Base.lproj/Sticker.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		A54235A92A5A53B5006DD925 = {
 			isa = PBXGroup;
 			children = (
+				A54235C92A5B027C006DD925 /* Sticker.storyboard */,
 				A54235B42A5A53B5006DD925 /* RenStoryboard1 */,
 				A54235B32A5A53B5006DD925 /* Products */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				A54235C22A5A53B8006DD925 /* LaunchScreen.storyboard in Resources */,
 				A54235BF2A5A53B8006DD925 /* Assets.xcassets in Resources */,
+				A54235CB2A5B027C006DD925 /* Sticker.storyboard in Resources */,
 				A54235BD2A5A53B5006DD925 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,6 +165,14 @@
 				A54235C12A5A53B8006DD925 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A54235C92A5B027C006DD925 /* Sticker.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54235CA2A5B027C006DD925 /* Base */,
+			);
+			name = Sticker.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -292,6 +304,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DP2BK3W4P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RenStoryboard1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -299,6 +312,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +333,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DP2BK3W4P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RenStoryboard1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -326,6 +341,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
